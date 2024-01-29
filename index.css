@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white;
+    background: black;
+    overflow: hidden;
+}
+
+.card-el{
+    height: 20em;
+    max-width: 30em;
+    margin: 5px auto;
+    padding: 50px 25px;
+    border-radius: 6px;
+    background: #1F2937;
+}
+
+h1 span {
+    color: #4ADF86; 
+}
+
+p {
+    color: #D5D4D8;
+}
+
+.btn {
+    width: 191px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 11px;
+    margin-top: 40px;
+    background: #10B981;
+    border: none;
+    border-radius: 5px;
+}
+
+.h_line {
+    width: 350px;
+    margin: 35px auto;
+    text-align: center;
+    border-bottom: 1px solid #2F3E53;
+}
+
+.password-area {
+    display: flex;
+    justify-content: space-evenly; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+.password {
+    width: 130px;
+    height: 22px;
+    font-size: 16px;
+    padding: 8px;
+    color: #4ADF86;
+    border-radius: 5px;
+    background: #2F3E53;
+}

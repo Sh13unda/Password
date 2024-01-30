@@ -65,3 +65,19 @@ p {
     border-radius: 5px;
     background: #2F3E53;
 }
+
+@media only screen and (max-width: 768px) {
+    .card-el {
+        height: auto;
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card-el {
+        padding: 30px 15px;
+    }
+    .btn {
+        width: 100%;
+    }
+}
